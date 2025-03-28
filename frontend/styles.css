@@ -1,0 +1,48 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Заголовки */
+h1, h2 {
+  color: #333;
+}
+
+/* Поля ввода */
+input {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Кнопки */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80%;
+  max-width: 300px;
+  display: block;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Статус авторизации */
+#auth-status {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}

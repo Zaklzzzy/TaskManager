@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager - Задачи</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ваши задачи</h1>
+  <div id="auth-status">Вы авторизованы</div>
+
+  <section id="tasks-section">
+    <ul id="task-list"></ul>
+  </section>
+
+  <section id="new-task-section">
+    <h2>Создать задачу</h2>
+    <input type="text" id="task-title" placeholder="Заголовок задачи">
+    <input type="text" id="task-description" placeholder="Описание задачи">
+    <input type="datetime-local" id="task-todo" placeholder="Дата и время выполнения">
+    <button id="create-task-btn">Создать задачу</button>
+  </section>
+
+  <button id="logout-btn">Выйти</button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
